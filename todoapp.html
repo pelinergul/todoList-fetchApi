@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="assets/css/todoapp.css">
+    <script src="assets/js/todosapp.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Todos</h1>
+        <div class="todoContainer">
+            <form id="todoForm">
+                <span>Actor: </span>
+                <select required name="actor" id="actor-id">
+                </select>
+                <span>Assignee: </span>
+                <select required name="assignee" id="assigne-id">
+                </select>
+                <input required type="text" class="new-todo" placeholder="What needs to be done?">
+                
+            </form>
+            <ul class="todoList"></ul>
+        </div>
+    </div>
+</body>
+</html>
