@@ -76,7 +76,6 @@ function markTodo(id,check,todo) {
             'Content-type': 'application/json;'
         }
     })
-    loadingData();
 }
 function editTodo(id,newTodo,todo) {
     fetch(`${requestUpdateUrl}${id}/`, {
@@ -91,7 +90,6 @@ function editTodo(id,newTodo,todo) {
             'Content-type': 'application/json;'
         }
     })
-    loadingData();
 }
 function showTodoEdit() {
     this.parentElement.classList.add('editing');
